@@ -3,7 +3,9 @@ import React from 'react'
 import logo from '@assets/logo.webp'
 import { Badge, Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, Input } from '@nextui-org/react'
 import { FaSearch, FaShoppingCart, FaCaretDown } from "react-icons/fa";
+import { BsPersonCircle } from "react-icons/bs";
 import { Menu } from '../../utils/datamock';
+import { FaCartShopping } from 'react-icons/fa6';
 
 export default function NavBar() {
     return (
@@ -13,23 +15,26 @@ export default function NavBar() {
                 <div className='container flex justify-between items-center'>
                     <div>
                         <a href="#" className='font-bold text-2xl sm:text-3xl flex gap-2'>
-                            <img src={logo} alt="logo" className='w-10 uppercase' />
-                            Shopsy
+                            <FaCartShopping className="max-w-[50px]"/>
+                            NextComer
                         </a>
                     </div>
                     {/**search bar */}
-                    <div>
+                    <div className='flex justify-between items-center gap-4'>
                         <div className='group h-10'>
                             <Input radius='full' type="text" className='w-[200px] h-full  group-hover:w-[230px]  transition-all' endContent={<div className="pointer-events-none flex items-center">
                                 <FaSearch />
                             </div>}
                             />
                         </div>
-                    </div>
-                    {/*order button */}
                     <Badge content="1" color="danger">
                         <Button radius='full' size='sm' startContent={<FaShoppingCart size={'20px'} />} className='bg-gradient-to-r from-primary to-secondary transition-all' />
                     </Badge>
+                    <a href='/login'>
+                    <BsPersonCircle size={'25px'} className='cursor-pointer transition-all' />
+                    </a>
+                    </div>
+                    {/*order button */}
                 </div>
 
             </div>

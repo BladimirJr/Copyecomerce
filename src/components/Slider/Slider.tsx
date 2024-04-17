@@ -1,30 +1,10 @@
 import React from 'react'
-import Image1 from '@assets/hero/women.png'
-import Image2 from '@assets/hero/shopping.png'
-import Image3 from '@assets/hero/sale.png'
+
 import { Button } from '@nextui-org/react'
 import Slider, { Settings } from 'react-slick'
+import { ImagesList } from '@data/hero'
 
-const ImagesList = [
-    {
-        id: 1,
-        src: Image1,
-        title: 'Upto 50% off on all Men\'s wear',
-        description: 'Lorem His life will forever changed dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.' ,
-    },
-    {
-        id: 2,
-        src: Image2,
-        title: '30% off on all Women\'s wear',
-        description: 'Who\'s there lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
-    },
-    {
-        id: 3,
-        src: Image3,
-         title: '70% off on all Accessories',
-        description: 'Who\'s there lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
-    }
-]
+
 const settings: Settings = {
     dots: false,
     arrows: false,
@@ -60,7 +40,7 @@ export default function SliderComponent() {
 
                          </div>
                          <div className='order-1 sm:order-2'>
-                             <div className='relative z-10'>
+                             <div data-aos="zoom-in" data-aos-once="true" className='relative z-10'>
                                  <img src={image.src} alt="" className='w-[300px] h-[300px] sm:h-[350px] sm:w-[350px] sm:scale-125 object-contain mx-auto' />
                              </div>
                          </div>

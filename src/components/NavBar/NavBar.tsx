@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react'
-import logo from '@assets/logo.webp'
 import { Badge, Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, Input } from '@nextui-org/react'
 import { FaSearch, FaShoppingCart, FaCaretDown } from "react-icons/fa";
 import { BsPersonCircle } from "react-icons/bs";
@@ -60,12 +59,8 @@ export default function NavBar() {
                         </li>
                             </DropdownTrigger>
                             <DropdownMenu aria-label="Static Actions">
-                                <DropdownItem key="new" color="primary" >New file</DropdownItem>
-                                <DropdownItem key="copy" color="primary" >Copy link</DropdownItem>
-                                <DropdownItem key="edit" color="primary" >Edit file</DropdownItem>
-                                <DropdownItem key="delete"  color="primary">
-                                    Delete file
-                                </DropdownItem>
+                                <DropdownItem key="new" color="primary" >Oferts</DropdownItem>
+                                <DropdownItem key="copy" color="primary" >New set</DropdownItem>  
                             </DropdownMenu>
                         </Dropdown>
                     </li>

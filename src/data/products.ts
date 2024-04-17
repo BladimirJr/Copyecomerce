@@ -20,7 +20,7 @@ export const ProductsData = [
       title: "Women western",
       rating: 4.5,
       color: "Red",
-      aosDelay: "200",
+      aosDelay: "100",
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ export const ProductsData = [
       title: "Goggles",
       rating: 4.7,
       color: "brown",
-      aosDelay: "400",
+      aosDelay: "200",
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ export const ProductsData = [
       title: "Printed T-Shirt",
       rating: 4.4,
       color: "Yellow",
-      aosDelay: "600",
+      aosDelay: "300",
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ export const ProductsData = [
       title: "Fashin T-Shirt",
       rating: 4.5,
       color: "Pink",
-      aosDelay: "800",
+      aosDelay: "400",
     },
   ];
   

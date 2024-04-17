@@ -1,5 +1,4 @@
 import React from "react";
-import logo from '@assets/logo.webp'
 import Banner from "../../assets/website/footer-pattern.jpg";
 import {
   FaFacebook,
@@ -26,7 +25,7 @@ export default function Footer(){
   return (
     <div style={BannerImg} className="text-white">
       <div className="container">
-        <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
+        <div className="grid md:grid-cols-3 pb-44 pt-5">
           {/* company details */}
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">

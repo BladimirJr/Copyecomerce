@@ -1,7 +1,6 @@
 
 import { Login } from '@components/Login/Login'
 import Layout from '@views/Layout.view'
-import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 

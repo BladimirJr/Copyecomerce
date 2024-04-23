@@ -1,4 +1,4 @@
-import React from "react";
+
 import { TestimonialData } from "@data/testimonials";
 import { Avatar, Card, CardBody, CardHeader } from "@nextui-org/react";
 import Slider, { Settings } from "react-slick";

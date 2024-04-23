@@ -1,4 +1,3 @@
-import React from 'react'
 import './Spinnercss.css'
 export default function Loading() {
   return (

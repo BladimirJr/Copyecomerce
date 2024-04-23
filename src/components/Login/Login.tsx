@@ -2,8 +2,6 @@
 import React from "react";
 import { cn } from "@utils/cn";
 import { Boxes } from "./Boxes";
-import { Image } from "@nextui-org/react";
-import BannerImg from "@assets/women/women2.jpg";
 import './css/login.css'
 import { FaCartShopping } from "react-icons/fa6";
 

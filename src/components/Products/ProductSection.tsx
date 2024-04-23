@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaStar } from 'react-icons/fa'
 import { Button, Image } from '@nextui-org/react'
 import Loading from '@components/Loading/Loading'

@@ -1,6 +1,5 @@
 import { ProductsData } from '@data/products'
 import { Image } from '@nextui-org/react'
-import React from 'react'
 import { FaStar } from 'react-icons/fa'
 
 

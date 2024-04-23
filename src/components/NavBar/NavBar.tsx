@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React from 'react'
 import { Badge, Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, Input } from '@nextui-org/react'
 import { FaSearch, FaShoppingCart, FaCaretDown } from "react-icons/fa";
 import { BsPersonCircle } from "react-icons/bs";

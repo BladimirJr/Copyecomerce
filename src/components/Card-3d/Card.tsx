@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { cn } from "../../utils/cn";
-import Image from "../assets/next.webp";
 import React, {
   createContext,
   useState,

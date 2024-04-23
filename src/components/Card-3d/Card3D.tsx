@@ -1,4 +1,3 @@
-import React from "react";
 import { CardBody, CardContainer, CardItem } from "./Card"
 import { Button, Image } from "@nextui-org/react";
 import { FaStar } from "react-icons/fa";

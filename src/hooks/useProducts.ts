@@ -3,7 +3,7 @@
 import { Products } from '@interfaces/app'
 import { API } from '@utils/const'
 import Axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function useProducts() {
 

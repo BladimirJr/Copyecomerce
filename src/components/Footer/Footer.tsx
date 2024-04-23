@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "../../assets/website/footer-pattern.jpg";
 import {
   FaFacebook,

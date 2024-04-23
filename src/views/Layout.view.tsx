@@ -8,6 +8,7 @@ import SliderComponent from '@components/Slider/Slider';
 import Products from '@components/Products/Products';
 import NavBar from '@components/NavBar/NavBar';
 import { Route, Routes } from 'react-router-dom';
+import ProductSection from '@components/Products/ProductSection';
 
 export default function Layout() {
   return (
@@ -18,14 +19,14 @@ export default function Layout() {
         <>
           <SliderComponent />
           <Products />
-          <TopProducts />
+          <TopProducts handleOrder={()=>{}} />
           <Banner />
           <Subscribe />
           <Testimonials />
         </>
         } 
         />
-        <Route path="products" element={<h1>404</h1>} />
+        <Route path="products" element={<ProductSection/>} />
       </Routes>
       <Footer />
     </>

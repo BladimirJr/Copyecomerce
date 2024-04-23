@@ -11,11 +11,11 @@ export default function NavBar() {
         <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
             {/**upper nabvar */}
             <div className='bg-primary/40 py-2 '>
-                <div className='container flex justify-between items-center'>
+                <div className='container flex justify-between items-center '>
                     <div>
                         <a href="#" className='font-bold text-2xl sm:text-3xl flex gap-2'>
                             <FaCartShopping className="max-w-[50px]"/>
-                            NextComer
+                            <span className="text-primary">Next</span>Comer
                         </a>
                     </div>
                     {/**search bar */}
@@ -26,7 +26,7 @@ export default function NavBar() {
                             </div>}
                             />
                         </div>
-                    <Badge content="1" color="danger">
+                    <Badge content={0} isInvisible={true} color="primary">
                         <Button radius='full' size='sm' startContent={<FaShoppingCart size={'20px'} />} className='bg-gradient-to-r from-primary to-secondary transition-all' />
                     </Badge>
                     <a href='/login'>
@@ -61,6 +61,7 @@ export default function NavBar() {
                             <DropdownMenu aria-label="Static Actions">
                                 <DropdownItem key="new" color="primary" >Oferts</DropdownItem>
                                 <DropdownItem key="copy" color="primary" >New set</DropdownItem>  
+                                
                             </DropdownMenu>
                         </Dropdown>
                     </li>

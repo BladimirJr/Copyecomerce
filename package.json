@@ -11,12 +11,15 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.10",
+    "@radix-ui/react-label": "^2.0.2",
+    "@tabler/icons-react": "^3.2.0",
     "@tsparticles/engine": "^3.3.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
     "aos": "^2.3.4",
+    "axios": "^1.6.8",
     "clsx": "^2.1.0",
-    "framer-motion": "^11.0.28",
+    "framer-motion": "^11.1.7",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
@@ -26,7 +29,7 @@
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
     "sort-by": "^1.2.0",
-    "tailwind-merge": "^2.2.2",
+    "tailwind-merge": "^2.3.0",
     "vite-tsconfig-paths": "^4.3.2"
   },
   "devDependencies": {

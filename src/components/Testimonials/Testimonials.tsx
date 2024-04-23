@@ -27,6 +27,15 @@ export default function Testimonials(){
         },
       },
       {
+        breakpoint: 1300,
+        settings: {
+          centerMode: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
         breakpoint: 1024,
         settings: {
          centerMode: true,

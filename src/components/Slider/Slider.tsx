@@ -11,7 +11,7 @@ const settings: Settings = {
     speed: 800,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 6000,
     cssEase: 'ease-in-out',
     pauseOnHover: false,
     pauseOnFocus: true,

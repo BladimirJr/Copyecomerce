@@ -6,7 +6,7 @@ import './css/login.css'
 import { FaCartShopping } from "react-icons/fa6";
 
 export function Login() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     console.log("Form submitted");
   };
@@ -50,7 +50,7 @@ export function Login() {
               </div>
               <span className="span">Forgot password?</span>
             </div>
-            <button className="button-submit">Sign In</button>
+            <button className="button-submit" onClick={(e)=>handleSubmit(e)}>Sign In</button>
             <p className="p">Don't have an account? <span className="span">Sign Up</span>
 
             </p><p className="p line">Or With</p>

@@ -1,4 +1,3 @@
-import React from "react";
 import { ProductsDataTop } from "@data/products";
 import { ThreeDCardDemo } from "@components/Card-3d/Card3D";
 

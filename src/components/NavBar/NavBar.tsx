@@ -28,7 +28,7 @@ export default function NavBar() {
                     <Badge content={0} isInvisible={true} color="primary">
                         <Button radius='full' size='sm' startContent={<FaShoppingCart size={'20px'} />} className='bg-gradient-to-r from-primary to-secondary transition-all' />
                     </Badge>
-                    <a href='/login'>
+                    <a href='/#login'>
                     <BsPersonCircle size={'25px'} className='cursor-pointer transition-all' />
                     </a>
                     </div>

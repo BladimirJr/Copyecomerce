@@ -7,26 +7,26 @@ export const Menu = [
     {
         id: 2,
         name: 'Products',
-        link: '/products'
+        link: '/#products'
     },
     {
         id: 3,
         name: 'Top Rated',
-        link: '/toprated'
+        link: '/#products'
     },
     {
         id: 4,
         name: 'Kids Wear',
-        link: '/kids'
+        link: '/#products'
     },
     {
         id: 5,
         name: 'Mens Wear',
-        link: '/mens'
+        link: '/#products'
     },
     {
         id: 6,
         name: 'Womens Wear',
-        link: '/womens'
+        link: '/#products'
     }
 ]

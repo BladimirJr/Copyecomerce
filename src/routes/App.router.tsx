@@ -10,7 +10,7 @@ export default function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout/>} />
-                <Route path="/login" element={<Login/>} />
+                <Route path="login" element={<Login/>} />
                 <Route path="*" element={<Layout/>} />
                 
             </Routes>

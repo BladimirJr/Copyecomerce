@@ -26,7 +26,8 @@ export default function Layout() {
         </>
         } 
         />
-        <Route path="/#products" element={<ProductSection/>} />
+        <Route path="/products" element={<ProductSection/>} />
+        <Route path="*" element={<>not Found 404</>} />
       </Routes>
       <Footer />
     </>

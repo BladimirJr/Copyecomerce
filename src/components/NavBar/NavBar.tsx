@@ -4,6 +4,7 @@ import { FaSearch, FaShoppingCart, FaCaretDown } from "react-icons/fa";
 import { BsPersonCircle } from "react-icons/bs";
 import { Menu } from '../../utils/datamock';
 import { FaCartShopping } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
     return (
@@ -28,9 +29,9 @@ export default function NavBar() {
                     <Badge content={0} isInvisible={true} color="primary">
                         <Button radius='full' size='sm' startContent={<FaShoppingCart size={'20px'} />} className='bg-gradient-to-r from-primary to-secondary transition-all' />
                     </Badge>
-                    <a href='/#login'>
+                    <Link to='/login'>
                     <BsPersonCircle size={'25px'} className='cursor-pointer transition-all' />
-                    </a>
+                    </Link>
                     </div>
                     {/*order button */}
                 </div>
@@ -41,7 +42,7 @@ export default function NavBar() {
                 <ul className='sm:flex hidden items-center gap-4'>
                     {Menu.map((item) => (
                         <li>
-                            <a key={item.id} className='inline-block px-4 hover:text-primary duration-200' href={item.link}>{item.name}</a>
+                            <Link key={item.id} className='inline-block px-4 hover:text-primary duration-200' to={item.link}>{item.name}</Link>
                         </li>
                     ))}
                     <li>

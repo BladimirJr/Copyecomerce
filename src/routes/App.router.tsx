@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 export default function AppRoutes() {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='comerce-k9rl.onrender.com'>
             <Routes>
                 <Route path="*" element={<Layout/>} />
                 <Route path="/login" element={<Login/>} />
